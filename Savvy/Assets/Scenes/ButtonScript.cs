@@ -9,7 +9,7 @@ public class ButtonScript : MonoBehaviour
 
     public bool isPressed;
 
-    public GameObject cube;
+    public GameObject Cube;
     float degrees = 0;
     public float degreeChange = 45;
     
@@ -21,7 +21,7 @@ public class ButtonScript : MonoBehaviour
             degrees += degreeChange;
             Quaternion rotation = Quaternion.Euler(degrees, 0, 0);
 
-            cube.transform.rotation = rotation;
+            Cube.transform.rotation = rotation;
 
 
             print("I EXIST");
