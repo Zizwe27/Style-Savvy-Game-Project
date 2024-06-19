@@ -18,8 +18,8 @@ public class ButtonScript : MonoBehaviour
 
         if(isPressed == true)
         { 
-            degrees += degreeChange;
-            Quaternion rotation = Quaternion.Euler(degrees, 0, 0);
+            degrees += degreeChange * Time.deltaTime;
+            Quaternion rotation = Quaternion.Euler(0, degrees, 0);
 
             Cube.transform.rotation = rotation;
 

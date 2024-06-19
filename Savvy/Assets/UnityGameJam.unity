@@ -365,7 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPressed: 0
   Cube: {fileID: 1115803897}
-  degreeChange: 5
+  degreeChange: 50
 --- !u!114 &750906489
 MonoBehaviour:
   m_ObjectHideFlags: 0
